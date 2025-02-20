@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Demo styles -->
+    <style>
+
+.swiper {
+            width: 100%;
+            height: auto;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 30px;
+            /* align-items: start; */
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .swiper {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">MOH<span>ALFIN</span>
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html#education">Education</a>
+            <a href="index.html#skill">Skill</a>
+            <a href="index.html#portofolio">Portofolio</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="detail-container">
+        <!-- image slider -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">    
+                <div class="swiper-slide">
+                    <!-- img disini -->
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- deskripsi-->
+         <div class="deskripsi">
+            <h1>Title Aplikasi</h1>
+            <div class="detail-aplikasi">
+               <!-- isi deskripsi -->
+            </div>
+         </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

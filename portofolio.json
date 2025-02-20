@@ -1,0 +1,38 @@
+[
+    {
+        "slug": "e-arsip",
+        "title": "E-ARSIP",
+        "description": "<p> Aplikasi e-arsip berbasis Laravel ini dirancang untuk mengelola arsip secara digital dengan sistem autentikasi dan otorisasi berbasis peran (role-based access control). Aplikasi ini memiliki tiga jenis pengguna utama: </p> <h4>Admin</h4> <ul> <li>Mengelola dokumen (menambah, mengedit, menghapus).</li> <li>Mengelola pengguna (menambah, mengedit, menghapus akun).</li> <li>Melakukan approval peminjaman dokumen.</li> <li>user : admin</li> <li>password : 123</li> </ul><h4>Peminjam</h4> <ul><li>Melakukan permohonan peminjaman dokumen.</li><li>user : nip (terdapat pada halaman admin)</li><li>password : 123</li></ul><h4>Guest</h4><ul><li>Mengakses dokumen yang tersedia untuk umum tanpa hak untuk mengedit atau meminjam.</li></ul><p>Link: <a href='https://github.com/AlfinMoh24/E-Arsip.git'>https://github.com/AlfinMoh24/E-Arsip</a></p> ",
+        "images": [
+            "portofolio/E-arsip/e-arsip-1.png",
+            "portofolio/E-arsip/e-arsip-2.png",
+            "portofolio/E-arsip/e-arsip-3.png",
+            "portofolio/E-arsip/e-arsip-3.png"
+        ]
+    },
+    {
+        "slug": "gamesuply-web",
+        "title": "GameSuply WebJasa",
+        "description": "<p>GameSuply Web Jasa adalah Website yang menyediakan layanan jasa pembuatan Website Topup Game.</p><h4>Aplikasi ini dibangun menggunakan</h4><ul><li>Html</li><li>CSS</li><li>Javascript</li><li>jQuery</li></ul><p>Link: <a href='http://gamesuply.com'>gamesuply.com</a></p>",
+        "images": [
+            "portofolio/gamesuplyJasa/web-1.png",
+            "portofolio/gamesuplyJasa/web-3.png",
+            "portofolio/gamesuplyJasa/web-4.png",
+            "portofolio/gamesuplyJasa/web-5.png",
+            "portofolio/gamesuplyJasa/web-6.png"
+        ]
+    },
+    {
+        "slug": "shoes-soccer",
+        "title": "SHOESSOCCER",
+        "description": "<p>Merupakan Website penjualan sepatu yang dilengkapi dengan fitur rekomendasi berdasarkan pencarian dan preferensi pengguna. Fitur rekomendasi ini dibuat menggunakan metode Content Base Filtering.</p><h4>Aplikasi ini dibangun menggunakan</h4><ul><li>Html</li><li>CSS</li><li>Javascript</li><li>PHP</li><li>python</li><li>flask</li></ul><p>Link repository : <a href='https://github.com/AlfinMoh24/ShoesSoccer-web.git'>https://github.com/AlfinMoh24/ShoesSoccer-web</a></p><p>Link uji coba : <a href='http://shoes-soccer.free.nf/'>shoes-soccer.free.nf/</a></p>",
+        "images": [
+            "portofolio/shoes-soccer/web-1.png",
+            "portofolio/shoes-soccer/web-2.png",
+            "portofolio/shoes-soccer/web-3.png",
+            "portofolio/shoes-soccer/web-4.png",
+            "portofolio/shoes-soccer/web-5.png",
+            "portofolio/shoes-soccer/web-6.png"
+        ]
+    }
+]
