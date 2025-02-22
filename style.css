@@ -386,6 +386,14 @@ line-height: 20px;
     width: 100%;
 }
 
+
+.porto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .porto-text{
     position: absolute;
     background-color: rgba(194, 1, 194, 0.619);
@@ -501,6 +509,13 @@ footer span{
 .detail-aplikasi ul{
     margin-left: 20px;
     margin-bottom: 15px;
+}
+
+.swiper-pagination-bullet{
+    background: grey;
+}
+.swiper-pagination-bullet-active{
+    background: var(--main-color);
 }
 
 @media(max-width:991px) {
@@ -619,6 +634,10 @@ footer span{
     .timeline-dot{
         left: 0;
     }
+    .detail-container{
+        grid-template-columns: auto;
+    }
+    
 
 
 
